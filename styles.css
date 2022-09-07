@@ -1,6 +1,10 @@
+body
+{
+    display: flex;
+}
 .calculator
 {
-    width: 25vw;
+    min-width: 25vw;
     display: flex;
     flex-direction: column;
     padding: 10px;
