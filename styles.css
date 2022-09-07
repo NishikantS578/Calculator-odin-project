@@ -5,6 +5,7 @@ body
 .calculator
 {
     min-width: 25vw;
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -21,21 +22,32 @@ body
     margin-bottom: 8px;
     padding: 4px;
     background: #ddd;
+    word-wrap: break-word;
+}
+.buttons
+{
+    flex: 4 0 0%;
+    display: flex;
+    flex-direction: column;
 }
 .first-row
 {
+    flex:1 1 0%;
     display: flex;
 }
 .second-row
 {
+    flex:1 1 0%;
     display: flex;
 }
 .third-row
 {
+    flex:1 1 0%;
     display: flex;
 }
 .fourth-row
 {
+    flex:1 1 0%;
     display: flex;
 }
 .key
@@ -47,4 +59,5 @@ body
     border-radius: 4px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
